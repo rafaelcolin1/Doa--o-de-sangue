@@ -1,62 +1,64 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Doação de sangue</title>
 </head>
 
+
 <body>
-    
-<h1>Formulário de Doação de sangue</h1>
+    <header>
+        <div class="navbar">
+            <h1>Formulário de Doação de Sangue</h1>
+        </div>
+    </header>
 
-<form id="formDoacao">
+    <main>
+        <form id="formDoacao">
 
-    <label for="nome">Nome: </label>
-        <input type="text" id="nome" placeholder="Digite seu nome completo">
-        <br>
-        <label for="email">Email: </label>
-        <input type="email" id="email" placeholder="Digite seu email">
-        <br>
-        <label for="cpf">CPF: </label>
-        <input type="number" id="cpf" placeholder="Digite seu CPF">
-        <br>
-        <label for="telefone">telefone: </label>
-        <input type="number" id="telefone" placeholder="Digite seu telefone">
-        <br>
-        <label for="idade">Idade: </label>
-        <input type="number" id="idade" placeholder="Digite sua idade">
-        <br>
-        <label for="peso">Peso: </label>
-        <input type="number" id="peso" placeholder="Digite seu peso">
-        <br>
-        <label for="cidade">Cidade: </label>
-        <input type="text" id="cidade" placeholder="Digite sua Cidade">
-        <br>
-        <label for="Estado">Estado: </label>
-        <input type="text" id="estado" placeholder="Digite seu Estado">
-        <br>
-        <label for="sangue">Tipo sanguíneo: </label>
-        <select name="sangue" id="sangue">
-            <option value="">Selecione seu tipo sanguíneo</option>
-            <option value="A+">A+</option>
-            <option value="A-">A-</option>
-            <option value="B+">B+</option>
-            <option value="B-">B-</option>
-            <option value="AB+">AB+</option>
-            <option value="AB-">AB-</option>
-            <option value="O+">O+</option>
-            <option value="O+">O+</option>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" placeholder="Digite seu nome completo">
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Digite seu email">
+            <label for="cpf">CPF: </label>
+            <input type="number" id="cpf" placeholder="Digite seu CPF">
+            <label for="telefone">telefone: </label>
+            <input type="number" id="telefone" placeholder="Digite seu telefone">
+            <label for="idade">Idade: </label>
+            <input type="number" id="idade" placeholder="Digite sua idade">
+            <label for="peso">Peso: </label>
+            <input type="number" id="peso" placeholder="Digite seu peso">
+            <label for="cidade">Cidade: </label>
+            <input type="text" id="cidade" placeholder="Digite sua Cidade">
+            <label for="Estado">Estado: </label>
+            <input type="text" id="estado" placeholder="Digite seu Estado">
+            <label for="sangue">Tipo sanguíneo: </label>
+            <select name="sangue" id="sangue">
+                <option value="">Selecione seu tipo sanguíneo</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O+">O+</option>
             </select>
-            <br>
 
-        <button type="submit">Enviar</button>
-
+            <button type="submit">Enviar</button>
 
 
-</form>
 
- <div id="resultado"></div>
+        </form>
+    </main>
+    <div id="resultado"></div>
+
+    </div>
+    <footer>
+    </footer>
     <script src="Scripts/doacao.js"></script>
-
 </body>
+
 </html>

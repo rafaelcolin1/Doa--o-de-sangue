@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    background-image: url(assets/sangue.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar{
+    background-color: rgb(221, 64, 64);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    text-align: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 62, 62);
+    padding: 3%;
+    margin: 5% 40% 3% 40%;
+    border-radius: 20px;
+    border: 1px black;
+
+}
