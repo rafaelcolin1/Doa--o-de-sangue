@@ -14,7 +14,7 @@ let sobrenome = nome.split(" ");
 
     if (nome.length < 3) return alert("Nome Inválido");
 
-    if (sobrenome.length < 2) return alert("Sobrenome Inválido");
+    if (sobrenome.length < 2) return alert("Digite seu nome Completo");
 
     if (email.length == "") return alert("Email Inválido");
 
